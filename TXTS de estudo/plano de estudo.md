@@ -1,46 +1,57 @@
-Plano de Estudo (10 dias)
-Dias 1 e 2: Node.js e Express
-Objetivo: Revisar conceitos básicos e criar um servidor simples.
-Atividades:
-Relembrar o que é Node.js e como configurar um projeto (npm init).
-Criar um servidor básico com Express e implementar rotas GET, POST, PUT e DELETE.
-Praticar configuração de middlewares e como lidar com parâmetros de rota (req.params) e query strings (req.query).
-Dica: Faça um projeto simples, como uma API de tarefas ("To-Do List").
+# Plano de Estudo para Exame de Suficiência em Programação Web Back-end
 
-Dias 3 e 4: Manipulação de Arquivos (fs e path) e Tratamento de Erros
-Objetivo: Trabalhar com arquivos e diretórios e entender como lidar com erros.
-Atividades:
-Praticar leitura e escrita de arquivos usando o módulo fs.
-Explorar métodos como fs.readFileSync, fs.writeFile, e fs.appendFile.
-Usar o módulo path para manipular caminhos.
-Estudar e praticar tratamento de erros com try-catch e throw.
-Dica: Crie scripts para ler e escrever dados em um arquivo JSON e trate possíveis erros (como arquivos inexistentes).
+## Estrutura do Plano
+O plano de estudo é dividido em 10 dias, cobrindo todos os tópicos da prova. Cada dia terá um foco específico com atividades práticas para reforçar o aprendizado.
 
-Dias 5 e 6: Middlewares, Cookies e Sessões
-Objetivo: Entender o fluxo de middlewares e trabalhar com cookies e sessões.
-Atividades:
-Criar middlewares para log de requisições, validação de dados e autenticação.
-Revisar como configurar cookies e sessões usando express-session.
-Praticar uso de cookies para armazenar preferências do usuário.
-Dica: Faça um pequeno projeto de login onde o usuário seja autenticado e uma sessão seja criada.
-Dias 7 e 8: API REST e Autenticação com JWT
-Objetivo: Implementar uma API REST e proteger rotas com JWT.
-Atividades:
-Revisar os conceitos de API RESTful (CRUD).
-Praticar criação de rotas para uma API simples.
-Implementar autenticação usando JWT com o pacote jsonwebtoken.
-Criar um middleware para validar o token e proteger rotas.
-Dica: Faça uma API de usuário onde o login gera um token JWT.
-Dias 9 e 10: Banco de Dados Relacional (Sequelize) e Revisão Geral
-Objetivo: Integrar um banco de dados com Sequelize e revisar todos os tópicos.
-Atividades:
-Configurar um banco de dados SQLite ou MySQL com Sequelize.
-Criar modelos, fazer associações (hasMany, belongsTo), e realizar operações CRUD.
-Revisar todos os tópicos estudados, fazer anotações e testar seus conhecimentos criando pequenos exemplos.
-Dica: Construa uma pequena aplicação CRUD com Sequelize para consolidar o aprendizado.
-Revisão Final (Dia 25/11)
-Objetivo: Fazer um simulado e revisar pontos fracos.
-Atividades:
-Simule a prova em casa, cronometrando 1h40, e tente resolver um problema prático abrangendo múltiplos tópicos.
-Revise suas anotações e códigos anteriores.
-Prepare seu ambiente de desenvolvimento para a prova (Node.js, VSCode, banco de dados).
+### **Dias 1 e 2: Node.js e Express**
+- **Objetivo:** Configurar o ambiente e aprender os conceitos básicos de Node.js e Express.
+- **Atividades:**
+  - Configurar um projeto Node.js com `npm init`.
+  - Instalar e configurar o Express (`npm install express`).
+  - Criar rotas básicas (`GET`, `POST`, `PUT`, `DELETE`).
+  - Praticar a criação e uso de **middlewares**.
+  - Trabalhar com **parâmetros de rota** (`req.params`) e **query strings** (`req.query`).
+
+### **Dias 3 e 4: Manipulação de Arquivos e Diretórios (`fs` e `path`)**
+- **Objetivo:** Aprender a ler, escrever e manipular arquivos e diretórios.
+- **Atividades:**
+  - Utilizar o módulo **`fs`** para ler e escrever arquivos de forma síncrona e assíncrona.
+  - Criar, renomear e deletar arquivos e diretórios.
+  - Usar o módulo **`path`** para manipular caminhos de forma segura e compatível com diferentes sistemas operacionais.
+
+### **Dias 5 e 6: Tratamento de Erros e Exceções em JavaScript**
+- **Objetivo:** Entender como lidar com erros de forma eficaz.
+- **Atividades:**
+  - Utilizar `try-catch` para tratar erros em funções síncronas e assíncronas.
+  - Trabalhar com `throw` para lançar erros customizados.
+  - Praticar tratamento de erros em operações de leitura e escrita de arquivos.
+
+### **Dias 7 e 8: Autenticação e API REST com JWT**
+- **Objetivo:** Implementar autenticação segura usando JSON Web Tokens (JWT).
+- **Atividades:**
+  - Instalar e configurar o pacote `jsonwebtoken`.
+  - Criar rotas de **registro** e **login** com geração de tokens JWT.
+  - Proteger rotas usando middleware de validação de JWT.
+
+### **Dias 9 e 10: Banco de Dados Relacional com Sequelize**
+- **Objetivo:** Integrar o back-end com um banco de dados relacional usando Sequelize.
+- **Atividades:**
+  - Configurar o Sequelize e conectar a um banco de dados (MySQL ou PostgreSQL).
+  - Criar modelos e realizar operações CRUD (Create, Read, Update, Delete).
+  - Praticar associações entre tabelas (`belongsTo`, `hasMany`).
+
+### **Dia Extra: Revisão Geral e Simulado**
+- **Objetivo:** Reforçar todos os conceitos estudados e simular a prova.
+- **Atividades:**
+  - Revisar anotações e exemplos de código.
+  - Resolver um simulado prático, cronometrando o tempo (1h40).
+  - Revisar pontos fracos e fazer ajustes finais.
+
+---
+
+**Dicas Adicionais:**
+- Pratique bastante código e teste seus conhecimentos usando ferramentas como o Postman para testar suas rotas.
+- Garanta que seu ambiente de desenvolvimento esteja configurado corretamente antes da prova.
+- Gerencie bem seu tempo durante a prova, priorizando as questões que você tem mais confiança.
+
+Boa sorte nos estudos! 💪
