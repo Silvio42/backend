@@ -7,7 +7,7 @@ Para iniciar um projeto:
 
 Na pasta desejada para criar o projeto utilize o comando 
 
-npm int -y
+npm init -y
 
 Para instalar o pacote express:
 
