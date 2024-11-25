@@ -8,3 +8,7 @@ DELETE: Para remover recursos.
 
 O que é JWT?
 JWT (JSON Web Token) é um padrão para autenticação segura em APIs. Ele gera um token no momento do login, que o cliente usa para acessar rotas protegidas.
+
+Utilizar o seguinte comando 
+
+npm install jsonwebtoken
